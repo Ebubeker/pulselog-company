@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: {
-    default: "PulseLog - Privacy-First Employee Productivity Analytics",
+    default: "PulseLog - Employee Productivity Analytics",
     template: "%s | PulseLog",
   },
   description:
