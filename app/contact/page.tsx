@@ -6,13 +6,51 @@ import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 
 export const metadata: Metadata = {
-  title: "Contact PulseLog - Get in Touch with Our Team",
-  description:
-    "Contact PulseLog for demos, support, or sales inquiries. Our team responds within 2 hours during business hours.",
+  title: "Contact PulseLog - Get in Touch with Our Team | Support & Sales",
+  description: "Contact PulseLog for demos, support, or sales inquiries. Our team responds within 2 hours during business hours. Get help with productivity analytics.",
+  keywords: [
+    "contact PulseLog",
+    "PulseLog support",
+    "productivity analytics support",
+    "employee monitoring help",
+    "PulseLog demo",
+    "sales inquiry",
+    "customer support",
+    "technical support",
+    "productivity software help",
+    "workplace analytics support"
+  ],
   openGraph: {
     title: "Contact PulseLog - Get in Touch with Our Team",
-    description:
-      "Contact PulseLog for demos, support, or sales inquiries. Our team responds within 2 hours during business hours.",
+    description: "Contact PulseLog for demos, support, or sales inquiries. Our team responds within 2 hours during business hours.",
+    url: "https://pulselog.com/contact",
+    siteName: "PulseLog",
+    images: [
+      {
+        url: "https://pulselog.com/og-contact.png",
+        width: 1200,
+        height: 630,
+        alt: "Contact PulseLog - Support and Sales Team",
+        type: "image/png",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact PulseLog - Get in Touch with Our Team",
+    description: "Contact PulseLog for demos, support, or sales inquiries. Our team responds within 2 hours during business hours.",
+
+    creator: "@pulselog",
+  },
+  alternates: {
+    canonical: "https://pulselog.com/contact",
+  },
+  other: {
+    "article:author": "PulseLog Team",
+    "article:section": "Support",
+    "article:tag": "contact,support,sales,demo,help",
   },
 }
 
@@ -54,6 +92,7 @@ export default function ContactPage() {
                     <input type="hidden" name="_subject" value="New Contact Form Submission - PulseLog" />
                     <input type="hidden" name="_captcha" value="false" />
                     <input type="hidden" name="_template" value="table" />
+                    <input type="hidden" name="_next" value="https://pulselog.com/thank-you" />
                     
                     <div className="space-y-2">
                       <Label htmlFor="name">Full Name *</Label>
@@ -96,7 +135,7 @@ export default function ContactPage() {
                 <div className="space-y-4">
                   <div>
                     <p className="font-medium text-foreground">Email</p>
-                    <p className="text-muted-foreground">hello@pulselog.com</p>
+                    <p className="text-muted-foreground">support@pulselog.ai</p>
                   </div>
                   
                   <div>

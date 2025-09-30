@@ -6,13 +6,51 @@ import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 
 export const metadata: Metadata = {
-  title: "Get a Quote - PulseLog Enterprise Pricing",
-  description:
-    "Get a custom quote for PulseLog Enterprise. Tailored pricing for large teams with custom deployment and compliance needs.",
+  title: "Get a Quote - PulseLog Enterprise Pricing | Custom Productivity Analytics",
+  description: "Get a custom quote for PulseLog Enterprise. Tailored pricing for large teams with custom deployment and compliance needs. Request your quote today.",
+  keywords: [
+    "PulseLog pricing",
+    "enterprise productivity analytics",
+    "custom quote",
+    "team productivity pricing",
+    "employee monitoring cost",
+    "productivity software pricing",
+    "enterprise deployment",
+    "custom analytics solution",
+    "workplace monitoring pricing",
+    "productivity insights cost"
+  ],
   openGraph: {
     title: "Get a Quote - PulseLog Enterprise Pricing",
-    description:
-      "Get a custom quote for PulseLog Enterprise. Tailored pricing for large teams with custom deployment and compliance needs.",
+    description: "Get a custom quote for PulseLog Enterprise. Tailored pricing for large teams with custom deployment and compliance needs.",
+    url: "https://pulselog.com/quote",
+    siteName: "PulseLog",
+    images: [
+      {
+        url: "https://pulselog.com/og-quote.png",
+        width: 1200,
+        height: 630,
+        alt: "Get a Quote - PulseLog Enterprise Pricing",
+        type: "image/png",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Get a Quote - PulseLog Enterprise Pricing",
+    description: "Get a custom quote for PulseLog Enterprise. Tailored pricing for large teams with custom deployment and compliance needs.",
+
+    creator: "@pulselog",
+  },
+  alternates: {
+    canonical: "https://pulselog.com/quote",
+  },
+  other: {
+    "article:author": "PulseLog Team",
+    "article:section": "Pricing",
+    "article:tag": "quote,pricing,enterprise,custom,deployment",
   },
 }
 
@@ -51,6 +89,7 @@ export default function QuotePage() {
                 <input type="hidden" name="_subject" value="New Quote Request - PulseLog" />
                 <input type="hidden" name="_captcha" value="false" />
                 <input type="hidden" name="_template" value="table" />
+                <input type="hidden" name="_next" value="https://pulselog.com/thank-you" />
                 
                 <div className="space-y-2">
                   <Label htmlFor="name">Full Name *</Label>

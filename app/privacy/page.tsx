@@ -46,7 +46,7 @@ export default function PrivacyPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card>
               <CardHeader>
-                <Eye className="h-8 w-8 text-accent mb-2" />
+                <Eye className="h-8 w-8 text-muted-foreground mb-2" />
                 <CardTitle className="text-lg">Transparency</CardTitle>
               </CardHeader>
               <CardContent>
@@ -58,7 +58,7 @@ export default function PrivacyPage() {
 
             <Card>
               <CardHeader>
-                <UserCheck className="h-8 w-8 text-accent mb-2" />
+                <UserCheck className="h-8 w-8 text-muted-foreground mb-2" />
                 <CardTitle className="text-lg">Employee Control</CardTitle>
               </CardHeader>
               <CardContent>
@@ -70,7 +70,7 @@ export default function PrivacyPage() {
 
             <Card>
               <CardHeader>
-                <Lock className="h-8 w-8 text-accent mb-2" />
+                <Lock className="h-8 w-8 text-muted-foreground mb-2" />
                 <CardTitle className="text-lg">Data Minimization</CardTitle>
               </CardHeader>
               <CardContent>
@@ -82,7 +82,7 @@ export default function PrivacyPage() {
 
             <Card>
               <CardHeader>
-                <Shield className="h-8 w-8 text-accent mb-2" />
+                <Shield className="h-8 w-8 text-muted-foreground mb-2" />
                 <CardTitle className="text-lg">Security First</CardTitle>
               </CardHeader>
               <CardContent>

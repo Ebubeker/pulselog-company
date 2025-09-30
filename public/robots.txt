@@ -1,0 +1,24 @@
+﻿User-agent: *
+Allow: /
+
+# Disallow admin and API routes
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /download
+
+# Allow all other pages
+Allow: /about
+Allow: /contact
+Allow: /quote
+Allow: /privacy
+Allow: /terms
+
+# Sitemap locations
+Sitemap: https://pulselog.com/sitemap.xml
+Sitemap: https://pulselog.com/sitemap-index.xml
+Sitemap: https://pulselog.com/sitemap-pages.xml
+Sitemap: https://pulselog.com/sitemap-images.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
